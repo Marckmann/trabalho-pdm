@@ -11,18 +11,21 @@
         android:id="@+id/txtNomeCad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
         android:hint="Nome"/>
 
     <EditText
         android:id="@+id/txtEmailCad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
         android:hint="Email"/>
 
     <EditText
         android:id="@+id/txtSenhaCad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
         android:hint="Senha"/>
     <Button
         android:id="@+id/btnCadastrar"
